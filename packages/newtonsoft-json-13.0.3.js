@@ -67,7 +67,7 @@ onUnConfigure(function (path){
         potteryInstance,
         "Newtonsoft.Json",
         pkgVer) != 0) {
-        // TODO make a warning here
+            mconsole.warnEx("Unable to remove package from pottery")
     }
 });
 
